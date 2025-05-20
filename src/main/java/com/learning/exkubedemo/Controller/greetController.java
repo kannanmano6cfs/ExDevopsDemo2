@@ -8,6 +8,6 @@ public class greetController {
 
     @GetMapping("/")
     public String greet() {
-          return "Hello World!! I am running from Container in Kubernetes";
+          return "Hello World!! I am running from Azure Web App Service through Github actions ";
     }
 }
